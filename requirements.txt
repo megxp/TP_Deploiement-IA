@@ -1,0 +1,13 @@
+# Exécution locale (sur Colab, les notebooks installent eux-mêmes ce qui manque)
+torch>=2.4
+torchvision>=0.19
+onnx>=1.16
+onnxscript>=0.1
+onnxruntime>=1.18
+openvino>=2024.3
+nvidia-ml-py>=12.0      # capteurs GPU NVIDIA (notebooks 03 et 04)
+numpy
+pandas
+matplotlib
+jupyterlab
+# tensorrt-cu12          # notebook 03 uniquement, GPU NVIDIA

@@ -1,0 +1,8 @@
+# Données et artefacts régénérés par les notebooks
+data/
+*.onnx
+*.onnx.data
+*.engine
+*_sorties.zip
+__pycache__/
+.ipynb_checkpoints/
